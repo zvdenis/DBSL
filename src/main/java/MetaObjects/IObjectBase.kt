@@ -1,0 +1,5 @@
+package MetaObjects
+
+interface IObjectBase {
+
+}
