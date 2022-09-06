@@ -1,10 +1,10 @@
 package Main.Types
 
-import MetaObjects.IPropertyBase
+import MetaObjects.IMetaObject
 import MetaObjects.StringMetaObject
 
 object StringType: Type() {
-    override fun getMetaObject(): IPropertyBase {
+    override fun getMetaObject(): IMetaObject {
         return StringMetaObject
     }
 

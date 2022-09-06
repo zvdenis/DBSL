@@ -1,9 +1,9 @@
 package Main.Types
 
-import MetaObjects.IPropertyBase
+import MetaObjects.IMetaObject
 
 abstract class Type {
-    abstract fun getMetaObject(): IPropertyBase
+    abstract fun getMetaObject(): IMetaObject
     abstract fun baseTypes(): Collection<Type>
     fun canBeAssignedTo(targetType: Type): Boolean{
         if (targetType == this)

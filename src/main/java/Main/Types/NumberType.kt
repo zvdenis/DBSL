@@ -1,14 +1,14 @@
 package Main.Types
 
 import MetaObjects.IMetaObject
-import MetaObjects.ObjectMetaObject
+import MetaObjects.NumberMetaObject
 
-object ObjectType: Type() {
+object NumberType: Type() {
     override fun getMetaObject(): IMetaObject {
-        return ObjectMetaObject
+        return NumberMetaObject
     }
 
     override fun baseTypes(): Collection<Type> {
-        return listOf(this);
+        return listOf(ObjectType);
     }
 }

@@ -1,6 +1,6 @@
 package MetaObjects
 
-interface IPropertyBase {
+interface IMetaObject {
 
     fun getPropertiesNamesList(): List<String>
     fun getProperty(baseObject: IObjectBase, propName: String): Object

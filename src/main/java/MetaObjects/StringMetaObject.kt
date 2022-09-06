@@ -2,7 +2,7 @@ package MetaObjects
 
 import java.lang.IllegalStateException
 
-object StringMetaObject : IPropertyBase {
+object StringMetaObject : IMetaObject {
 
     override fun getPropertiesNamesList(): List<String> {
         return listOf("value")

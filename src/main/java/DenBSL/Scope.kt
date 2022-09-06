@@ -1,0 +1,4 @@
+package DenBSL
+
+class Scope {
+}
